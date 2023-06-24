@@ -1,13 +1,13 @@
 body {
-    font-family: font-family: 'Gloock', serif;
+    font-family: 'Gloock', serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Playfair Display', serif;;
 }
 
-div {
-    background-color: aquamarine;
-}
-
-form {
-    
+.content{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 800px;
+    background-color: #DAE3E9;
 }

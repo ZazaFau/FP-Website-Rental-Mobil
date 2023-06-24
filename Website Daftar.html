@@ -10,18 +10,31 @@
             rel="stylesheet"
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous" />
+
         <!--Add favicon and style.css-->
         <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
-        <link rel="stylesheet" href="./style/style.css" />
     </head>
 
     <body>
-        <div class="main-content container d-flex align-items-center justify-content-center">
+        <div class="content">
+            <style>
+                body {
+                    font-family: 'Gloock', serif;
+                    font-family: 'Inter', sans-serif;
+                    font-family: 'Playfair Display', serif;
+                }
+                .container{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                padding: 20px 25px;
+                width: 500px;
+                background-color: #DAE3E9;
+                }
+            </style>
             <div class="row container justify-content-center">
-                <div class="d-flex flex-column text-start col-sm-5 col-9">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/images.png" alt="logo-rental mobil" class="navbar-logo" />
-                    </a>
+                <img src="img/" alt="logo-rental mobil" class="navbar-logo" />
                     <p class="fs-3 fw-bold my-3">Login</p>
 
                     <!-- Form -->
@@ -51,7 +64,7 @@
                         </div>
 
                         <!-- Submit -->
-                        <button type="submit" class="btn button-form py-2 px-5 fw-bold bg-pink">Daftar</button>
+                        <button type="submit" class="btn btn-primary py-2 px-5 fw-bold">Daftar</button>
                         <p class="mt-2">Sudah Punya Akun?<a href="./register.html" class="text-pink text-decoration-none">Masuk Disini</a></p>
                     </form>
                 </div>
