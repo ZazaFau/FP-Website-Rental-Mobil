@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Homepage Rental Mobil</title>
+        <!--Import CDN From bootstrap 5.3-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous" />
+        <!--Add favicon and style.css-->
+        <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul><li><a href="#biodata member">Biodata Member</a></li>
+                    <li><a href="#kisah member">Kisah Member</a></li>
+                    <li><a href="#album">Album</a></li>
+                    <li><a href="#penghargaan">Penghargaan</a></li>
+                </ul>
+            </nav>
+
+            <h1>BTS atau Bangtan Boys</h1>
+            <img src="img/BTS/Profil BTS.jpeg" class="featured-image" alt="BTS" width="800px">
+            <p>
+            Bangtan Boys atau lebih dikenal dengan BTS merupakan boyband asal Korea Selatan yang beranggotakan tujuh orang lelaki muda berbakat, yaitu Kim Namjoon atau RM sang leader, Kim Seokjin, Min Yoongi atau Suga, Jung-Hoseok atau J-hope, Park Jimin, Kim Taehyung atau V, dan Jeon Jungkook sang maknae. 
+            Single debut pertama yang dikeluarkan oleh BTS yaitu "No More Dream" dalam album pertama mereka "2 Cool 4 Skool" yang memperoleh penghargaan Melon Music Awards 2013 sebagai artis pendatang baru tahun ini.
+            </p>
+        </header>
+
+
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-sm">
+                <div class="col-10">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/images apple.jpeg" alt="Logo Rental Mobil" width="250" height="80">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2"><a href="./dicussion.html" class="nav-link">Homepage</a></li>
+                        <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Contact Us</a></li>
+                        <li class="nav-item mx-2">
+                            <a href="./login.html">
+                                <button type="button" class="btn bg-pink">Login</button>       
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- navbar end -->
+    
+        <!--!TODO: implement Navbar component right here!-->
+        <div class="main-content container d-flex align-items-center justify-content-center">
+            <div class="row container justify-content-center">
+                <div class="d-flex flex-column text-start col-sm-5 col-9">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/images.png" alt="logo-rental mobil" class="navbar-logo" />
+                    </a>
+                    <p class="fs-3 fw-bold my-3">Selamat Datang di Mitra BlackBird!</p>
+
+                    <!-- Form -->
+                    <form>
+                        <!-- Nama Toko -->
+                        <div class="mb-4">
+                            <label for="inputNamaToko" class="form-label fs-5 text-secondary">Nama Toko</label>
+                            <input type="namatoko" class="form-control bg-light p-3" id="inputNamaToko" placeholder="Masukkan Nama Toko" />
+                        </div>
+
+                        <!-- Alamat Lengkap -->
+                        <div class="mb-4">
+                            <label for="inputAlamatLengkap" class="form-label fs-5 text-secondary">Alamat Lengkap</label>
+                            <input type="alamatlengkap" class="form-control bg-light p-3" id="inputAlamatLengkap" placeholder="Masukkan Alamat Lengkap" />
+                        </div>
+
+                        
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <label for="inputEmail" class="form-label fs-5 text-secondary">Email</label>
+                            <input type="email" class="form-control bg-light p-3" id="inputEmail" aria-describedby="emailHelp" placeholder="Masukkan Email" />
+                        </div>
+
+                        <!-- Nomor Telepon -->
+                        <div class="mb-4">
+                            <label for="inputNomorTelepon" class="form-label fs-5 text-secondary">Nomor Telepon</label>
+                            <input type="nomortelepon" class="form-control bg-light p-3" id="inputNomorTelepon" placeholder="Masukkan Nomor Telepon" />
+                        </div>
+
+                        <!-- Kata Sandi -->
+                        <div class="mb-4">
+                            <label for="inputKataSandi" class="form-label fs-5 text-secondary">Kata Sandi</label>
+                            <input type="katasandi" class="form-control bg-light p-3" id="inputKataSandi" placeholder="Masukkan Kata Sandi" />
+                        </div>
+
+                        <!-- Submit -->
+                        <button type="submit" class="btn button-form py-2 px-5 fw-bold bg-pink text-bg-success">Daftarkan Toko</button>
+                        <p class="mt-2">Tidak Punya Akun?<a href="./register.html" class="text-pink text-decoration-none">Daftar Disini</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--!TODO: Implement Card Profile component right here-->
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous">
+        </script>
+    </body>
+
+    <footer>
+        <p>Bagikan melalui:</p>
+        <ul>
+            <li><a href="https://whatsapp.com">WhatsApp</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+        </ul>
+    </footer>
+</html>
