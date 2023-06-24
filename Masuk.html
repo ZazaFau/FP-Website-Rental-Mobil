@@ -17,11 +17,24 @@
 
     <body>
         <div class="content">
+            <style>
+                body {
+                    font-family: 'Gloock', serif;
+                    font-family: 'Inter', sans-serif;
+                    font-family: 'Playfair Display', serif;
+                }
+                .container{
+                position: absolute;
+                left: 54%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                padding: 20px 25px;
+                width: 500px;
+                background-color: #DAE3E9;
+                }
+            </style>
             <div class="row container justify-content-center">
-                <div class="d-flex flex-column text-start col-sm-5 col-9">
-                    <a class="navbar-brand" href="#">
                         <img src="img/" alt="logo-rental mobil" class="navbar-logo" />
-                    </a>
                     <p class="fs-3 fw-bold my-3 text-center">Masuk</p>
 
                     <!-- Form Masuk -->
@@ -35,7 +48,7 @@
                         <!-- Kata Sandi -->
                         <div class="mb-4">
                             <label for="inputKataSandi" class="form-label fs-5 text-dark">Kata Sandi</label>
-                            <input type="katasandi" class="form-control bg-light p-3" id="inputKataSandi" placeholder="Masukkan Kata Sandi" />
+                            <input type="password" class="form-control bg-light p-3" id="inputKataSandi" aria-describedby="pw-hint" placeholder="Masukkan Kata Sandi" />
                         </div>
 
                         <!-- Submit -->
